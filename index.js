@@ -65,7 +65,7 @@ const dataCheck = () => {
     } else {
         tableContainer.className = "d-none";
         spinner.className="d-none"
-        errorMsg.innerHTML = "No data received. Try refreshing the page."
+        errorMsg.innerHTML = `No data received. Try refreshing the page. You may also simulate data by posting to <a class="text-light" href="https://s05-webhook-api.herokuapp.com/" target="_blank">https://s05-webhook-api.herokuapp.com/</a>`
     }
 }
 
